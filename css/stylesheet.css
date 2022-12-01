@@ -1,0 +1,47 @@
+body {
+    background-image: url(/Images/Luminary.svg);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+body{
+    display:grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    animation:backwards 6s infinite alternate linear;
+
+}
+
+.Login-card{
+    position: relative;
+    width: 30%;
+    background-color: aliceblue;
+    margin: 70px;
+    text-align: center;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+.login-form{
+    margin: 1cm;
+}
+
+.login-form > button {
+    margin: 10px;
+    opacity: 0.8;
+    border: solid 2px white;
+    color: black;
+        
+}
+
+
